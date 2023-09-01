@@ -1,0 +1,102 @@
+html,
+body {
+    height: 100vh;
+}
+body {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container {
+    font-size: 40px;
+}
+.board {
+    height: 500px;
+    width: 500px;
+    display:grid;
+    border: solid;
+    border-color: aliceblue;
+    border-width: 6px;
+    flex:1
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.black {
+    background-color: black;
+    color : white;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+
+.black:hover {
+    background-color: white;
+    color: black;
+}
+
+.eraser,
+.pink {
+    background-color: pink;
+    border-color: pink;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.eraser:hover,
+.pink:hover {
+    background-color: white;
+    color: pink;
+    border-color: white;
+}
+
+.blue { background-color: blue;
+    color : white;
+    border-radius: 8px;
+    font-size: 14px;
+    border-color: blue;
+
+}
+.blue:hover {
+    background-color: white;
+    border-color: white;
+    color:blue;
+}
+
+.random {
+    background-color: brown;
+    border-color: brown;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.random:hover {
+    background-color: white ;
+    border-color:white;
+    color: brown;
+}
+
+.reset {
+    background-color: red;
+    color : white;
+    border-radius: 8px;
+    font-size: 14px;
+    border-color: red;
+}
+
+.reset:hover {
+    background-color: white ;
+    border-color:white;
+    color: red
+}
